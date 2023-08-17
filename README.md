@@ -20,7 +20,7 @@ Alternatively, you can also use curl to download the script:
 ```sudo ./create_swap.sh```
 
 What does the Script Do?
-1. he script uses fallocate to create a swap file. By default, the script creates a swap file of 2GB (gigabytes) size. You can adjust this size to meet your system's needs by modifying the fallocate command within the script.
+1. The script uses fallocate to create a swap file. By default, the script creates a swap file of 2GB (gigabytes) size. You can adjust this size to meet your system's needs by modifying the fallocate command within the script.
 2. It sets appropriate permissions for the created swap file using chmod.
 3. The swap file is formatted for use using mkswap.
 4. The swap file is activated using swapon.
