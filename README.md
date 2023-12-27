@@ -19,6 +19,8 @@ Alternatively, you can also use curl to download the script:
    
 ```sudo ./create_swap.sh```
 
+# Or just use this one line command
+
 ```curl -fsSL https://raw.githubusercontent.com/abhranil26/swap-file-bash-script/main/create_swap.sh -o create_swap.sh && sudo sh ./create_swap.sh```
 
 What does the Script Do?
