@@ -5,19 +5,27 @@ This Bash script automates the process of creating and configuring a swap file o
 Usage
 1. Download the Script: You can download the script directly using the following command:
    
- ```wget https://raw.githubusercontent.com/abhranil26/swap-file-bash-script/main/create_swap.sh```
+ ```bash
+ wget https://raw.githubusercontent.com/abhranil26/swap-file-bash-script/main/create_swap.sh
+```
 
 Alternatively, you can also use curl to download the script:
 
-```curl -O https://raw.githubusercontent.com/abhranil26/swap-file-bash-script/main/create_swap.sh```
+```bash
+curl -O https://raw.githubusercontent.com/abhranil26/swap-file-bash-script/main/create_swap.sh
+```
 
 2. Make the Script Executable: Once the script is downloaded, make it executable using the following command:
 
-```chmod +x create_swap.sh```
+```bash
+chmod +x create_swap.sh
+```
 
 3. Run the Script: Execute the script with superuser privileges using sudo:
    
-```sudo ./create_swap.sh```
+```bash 
+sudo ./create_swap.sh
+```
 
 # Or just use this one line command
 
