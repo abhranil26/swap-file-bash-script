@@ -24,7 +24,7 @@ Alternatively, you can also use curl to download the script:
 ```curl -fsSL https://raw.githubusercontent.com/abhranil26/swap-file-bash-script/main/create_swap.sh -o create_swap.sh && sudo sh ./create_swap.sh```
 
 What does the Script Do?
-1. The script uses fallocate to create a swap file. By default, the script creates a swap file of 2GB (gigabytes) size. You can adjust this size to meet your system's needs by modifying the fallocate command within the script.
+1. The script uses fallocate to create a swap file. It will ask the user for the sie of the swap file, just enter the number like 2, 4 or 16.
 2. It sets appropriate permissions for the created swap file using chmod.
 3. The swap file is formatted for use using mkswap.
 4. The swap file is activated using swapon.
