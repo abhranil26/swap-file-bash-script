@@ -21,7 +21,9 @@ Alternatively, you can also use curl to download the script:
 
 # Or just use this one line command
 
-```bash curl -fsSL https://raw.githubusercontent.com/abhranil26/swap-file-bash-script/main/create_swap.sh -o create_swap.sh && sudo sh ./create_swap.sh```
+```bash 
+curl -fsSL https://raw.githubusercontent.com/abhranil26/swap-file-bash-script/main/create_swap.sh -o create_swap.sh && sudo sh ./create_swap.sh
+```
 
 What does the Script Do?
 1. The script uses fallocate to create a swap file. It will ask the user for the sie of the swap file, just enter the number like 2, 4 or 16.
