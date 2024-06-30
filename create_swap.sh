@@ -1,7 +1,14 @@
 #!/bin/bash
 
+# Ask the user for the size of the swap file
+echo "Enter the size of the swap file in GB: "
+read swap_size_gb
+
+# Create the final size string by concatenating the user input with "G"
+swap_size="${swap_size_gb}G"
+
 # Create a swap file
-fallocate -l 2G /myswap    # Adjust the size as needed (e.g., 1G for 1GB)
+fallocate -l ${swap_size} /myswap
 
 # Set permissions for the swap file
 chmod 600 /myswap
